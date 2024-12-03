@@ -10,6 +10,7 @@ import os
 class Database:
     def __init__(self, db_path="C:/Users/furqa/OneDrive/Desktop/task_management.db"):
         self.db_name = db_path
+        # self.create_tables()
 
 # Modified User class to work with database
 class User:
